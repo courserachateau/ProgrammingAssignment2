@@ -6,6 +6,8 @@
 ## The function makeCacheMatrix generates a special 'matrix'
 ## object that can cache its inverse.
 
+
+# Set seed 
 set.seed(20180429)
 
 makeCacheMatrix <- function(x = matrix()) {
